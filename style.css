@@ -1,39 +1,34 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    
 }
 h1{
     font-size: 50px;
 }
 h2{
-    font-size: 40px;
+    color: orange;
 }
 .orange-color{
     color: orange;
 }
 .flexible-container{
+    
     display: flex;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 .half-width{
-    width: 40%;
-    padding-left: 5%;
-    float: left;
-    margin-left: 5%;
-    
+    width: 50%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 80%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(salmon, tomato);
     padding: 10px 40px;
-    color: white;
     font-weight: 700;
     border-radius: 5px;
-
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -50,24 +45,23 @@ h2{
     background-position: left;
 }
 .experience-item{
-    box-shadow: 10px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 20px;
+    padding-left: 20px;
     border-radius: 10px;
-    
-}
-#web-dev-experience{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
 }
 #full-stack-experience{
     border-left: 7px solid;
     border-image: linear-gradient(purple, tomato);
     border-image-slice: 1;
 }
-footer{
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
     text-align: center;
 }
